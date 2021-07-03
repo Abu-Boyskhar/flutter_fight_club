@@ -146,7 +146,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 40,
                     child: ColoredBox(
                       color:
-                          attackingBodyPart == null && defendingBodyPart == null
+                          attackingBodyPart == null || defendingBodyPart == null
                               ? Colors.black38
                               : Color.fromRGBO(0, 0, 0, 0.87),
                       child: Center(
